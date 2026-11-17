@@ -1,0 +1,30 @@
+.footer {
+  background-color: #0a2342;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 13px;
+  width: 100;
+  margin-top: 5px;
+}
+
+.footer p {
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+/* Phone screen */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+    padding: 18px 15px;
+  }
+}
+
+/* Very small phone */
+@media (max-width: 480px) {
+  .footer {
+    font-size: 13px;
+    padding: 16px 10px;
+  }
+}

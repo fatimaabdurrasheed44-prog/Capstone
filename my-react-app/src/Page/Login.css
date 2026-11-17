@@ -1,0 +1,84 @@
+.login-page{
+  min-height:75vh;
+  background:#f3f5f7;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding:50px 20px;
+  font-family: -apple-system, sans-serif;
+}
+.login-card{
+  background:white;
+  width:100%;
+  max-width:420px;
+  border-radius:18px;
+  padding:32px 26px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.06);
+  border:1px solid #f0f0f0;
+}
+.login-card h1{
+  font-size:26px;
+  font-weight:800;
+  text-align:center;
+  color:#1e293b;
+}
+.login-sub{
+  text-align:center;
+  color:#6b7280;
+  font-size:14px;
+  margin-top:8px;
+  margin-bottom:24px;
+}
+.login-card label{
+  font-size:13px;
+  font-weight:700;
+  color:#1e293b;
+  display:block;
+  margin-bottom:8px;
+  margin-top:16px;
+}
+.login-card input{
+  width:100%;
+  padding:13px 14px;
+  border:1.5px solid #e5e7eb;
+  border-radius:10px;
+  font-size:14px;
+  outline:none;
+  box-sizing:border-box;
+}
+.login-card input::placeholder{
+  color:#9ca3af;
+}
+.login-card input:focus{
+  border-color:#6366f1;
+}
+.login-btn{
+  width:100%;
+  background:#6366f1;
+  color:white;
+  border:none;
+  padding:14px;
+  border-radius:10px;
+  font-weight:600;
+  font-size:15px;
+  margin-top:22px;
+  cursor:pointer;
+}
+.no-account{
+  text-align:center;
+  font-size:13px;
+  color:#64748b;
+  margin-top:18px;
+}
+.no-account a{
+  color:#6366f1;
+  font-weight:700;
+  text-decoration:none;
+}
+
+/* LAPTOP - center more like teacher */
+@media(min-width:768px){
+  .login-page{
+    padding:80px 20px;
+  }
+}
